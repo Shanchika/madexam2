@@ -76,4 +76,18 @@
     <string name="t32">PAYMENT SUCESSFUL\n</string>
     <string name="t34">Transaction Completed</string>
     <string name="t40">Continue To Lessons</string>
+    <string name="t43">Learn anytime with flexible courses and expert guidance.\nImprove skills and knowledge at your own pace effortlessly.</string>
+    <string name="t41">Welcome To App\n</string>
+    <string name="s1">SIGN IN</string>
+    <string name="s2">SIGN UP</string>
+    <string name="s3">Learn anytime with flexible courses and expert guidance.\nImprove skills and knowledge at your own pace effortlessly.</string>
+    <string name="a1">Name</string>
+    <string name="a2">SHANCHIKS S</string>
+    <string name="a5">E-Mail</string>
+    <string name="a6">abcd@gmail.com</string>
+    <string name="a7">Password\n</string>
+    <string name="password">.......\n</string>
+    <string name="conform">Conform Password\n\n</string>
+    <string name="s8">SignUp</string>
+    <string name="s9">----OR------</string>
 </resources>

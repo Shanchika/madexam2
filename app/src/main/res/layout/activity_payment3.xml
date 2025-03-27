@@ -10,9 +10,13 @@
         android:id="@+id/imageView93"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/z"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="87dp" />
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView56"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223"
+        app:srcCompat="@drawable/z" />
 
     <Button
         android:id="@+id/button29"
@@ -30,18 +34,22 @@
         android:id="@+id/textView56"
         android:layout_width="347dp"
         android:layout_height="94dp"
+        android:layout_marginBottom="68dp"
         android:text="@string/t34"
         android:textColor="#101010"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView117"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView117"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/asdf"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="390dp" />
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/button29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/asdf" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
