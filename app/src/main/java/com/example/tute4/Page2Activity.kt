@@ -16,14 +16,14 @@ class Page2Activity : AppCompatActivity() {
         // Handling Button for b6 (Navigate to activity_page1.xml)
         val buttonB6 = findViewById<Button>(R.id.button17)
         buttonB6.setOnClickListener {
-            val intent = Intent(this, ActivityPage1::class.java)
+            val intent = Intent(this, Page1Activity::class.java)
             startActivity(intent)
         }
 
         // Handling Button for b8 (Navigate to activity_page3.xml)
         val buttonB8 = findViewById<Button>(R.id.button15)
         buttonB8.setOnClickListener {
-            val intent = Intent(this, ActivityPage3::class.java)
+            val intent = Intent(this, Page3Activity::class.java)
             startActivity(intent)
         }
 

@@ -24,7 +24,7 @@ class SignInActivity : AppCompatActivity() {
 
         // Navigate to Forgot Password activity on click
         forgetPasswordText.setOnClickListener {
-            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            val intent = Intent(this, ForgetPasswordActivity::class.java)
             startActivity(intent)
         }
     }

@@ -35,7 +35,7 @@ class SettingActivity : AppCompatActivity() {
         // ImageView to navigate to Notifications
         val imageView111: ImageView = findViewById(R.id.imageView111)
         imageView111.setOnClickListener {
-            val intent = Intent(this, NotificationsActivity::class.java)
+            val intent = Intent(this, NotificationActivity::class.java)
             startActivity(intent)
         }
     }

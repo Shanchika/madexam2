@@ -23,7 +23,7 @@ class Page3Activity : AppCompatActivity() {
         val button14: Button = findViewById(R.id.button14)
         button14.setOnClickListener {
             val intent = Intent(this, Page2Activity::class.java)  /
-            startActivity(intent)
+                    startActivity(intent)
         }
 
         // ImageView to navigate to Homepage
