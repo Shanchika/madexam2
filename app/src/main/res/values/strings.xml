@@ -65,4 +65,15 @@
     <string name="t16">Skill Development: Enhance your abilities with practical courses. Improve career prospects with new skills</string>
     <string name="t20">Setting</string>
     <string name="t21">Notification</string>
+    <string name="t22">Profile</string>
+    <string name="t23">SHANCHIKA S</string>
+    <string name="t24">About Me</string>
+    <string name="t25">My Skills\n</string>
+    <string name="t27">My Course</string>
+    <string name="t28">Website Design</string>
+    <string name="t29">App Design</string>
+    <string name="t30">see all</string>
+    <string name="t32">PAYMENT SUCESSFUL\n</string>
+    <string name="t34">Transaction Completed</string>
+    <string name="t40">Continue To Lessons</string>
 </resources>
