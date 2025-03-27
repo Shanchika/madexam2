@@ -13,13 +13,13 @@ class Page1Activity : AppCompatActivity() {
 
         // Navigate to activity_payment.xml when button26 is clicked
         button26.setOnClickListener {
-            val intent = Intent(this, PaymentActivity::class.java)
+            val intent = Intent(this, Payment1Activity::class.java)
             startActivity(intent)
         }
 
         // Navigate to activity_home.xml when imageView43 is clicked
         imageView43.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, HomepageActivity::class.java)
             startActivity(intent)
         }
 
@@ -49,7 +49,7 @@ class Page1Activity : AppCompatActivity() {
 
         // Navigate to activity_home.xml when imageView5 is clicked
         imageView5.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, HomepageActivity::class.java)
             startActivity(intent)
         }
     }

@@ -12,21 +12,21 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
 
         // Find the SignIn button from the layout
-        val signInButton: Button = findViewById(R.id.button50) // ID of the Sign In button
+        val signInButton: Button = findViewById(R.id.button55)
         // Find the SignUp button from the layout
-        val signUpButton: Button = findViewById(R.id.button51) // ID of the Sign Up button
+        val signUpButton: Button = findViewById(R.id.button51)
 
         // Set an onClickListener for the SignIn button
         signInButton.setOnClickListener {
             // Create an Intent to navigate to SignInActivity
-            val intent = Intent(this, SignInActivity::class.java)
+            val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
         }
 
         // Set an onClickListener for the SignUp button
         signUpButton.setOnClickListener {
             // Create an Intent to navigate to SignUpActivity
-            val intent = Intent(this, SignUpActivity::class.java)
+            val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)
         }
     }

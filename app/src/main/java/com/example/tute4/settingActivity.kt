@@ -9,33 +9,33 @@ class SettingActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_setting) // Replace with your layout file
+        setContentView(R.layout.activity_setting)
 
         // ImageView to navigate to Home
         val imageView110: ImageView = findViewById(R.id.imageView110)
         imageView110.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java) // Replace with your HomeActivity
+            val intent = Intent(this, HomepageActivity::class.java)
             startActivity(intent)
         }
 
         // ImageView to navigate to Profile
         val imageView106: ImageView = findViewById(R.id.imageView106)
         imageView106.setOnClickListener {
-            val intent = Intent(this, ProfileActivity::class.java) // Replace with your ProfileActivity
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
 
         // ImageView to navigate to Sign In
         val imageView109: ImageView = findViewById(R.id.imageView109)
         imageView109.setOnClickListener {
-            val intent = Intent(this, SignInActivity::class.java) // Replace with your SignInActivity
+            val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
         }
 
         // ImageView to navigate to Notifications
         val imageView111: ImageView = findViewById(R.id.imageView111)
         imageView111.setOnClickListener {
-            val intent = Intent(this, NotificationsActivity::class.java) // Replace with your NotificationsActivity
+            val intent = Intent(this, NotificationsActivity::class.java)
             startActivity(intent)
         }
     }

@@ -8,7 +8,7 @@
     android:background="@color/white">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#7C7171"
@@ -93,7 +93,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button50"
+        android:id="@+id/button55"
         android:layout_width="317dp"
         android:layout_height="76dp"
         android:layout_marginBottom="60dp"

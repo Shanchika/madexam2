@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.909">
 
         <Button
-            android:id="@+id/button50"
+            android:id="@+id/button55"
             android:layout_width="199dp"
             android:layout_height="83dp"
             android:backgroundTint="#2939B4"
@@ -59,7 +59,7 @@
         tools:layout_editor_absoluteY="-66dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#7C7171"

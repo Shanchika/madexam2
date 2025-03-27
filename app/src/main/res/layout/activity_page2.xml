@@ -114,13 +114,6 @@
             android:backgroundTint="#64656A"
             android:text="@string/b8" />
 
-        <ImageView
-            android:id="@+id/imageView47"
-            android:layout_width="6dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            app:srcCompat="@drawable/a12" />
-
     </LinearLayout>
 
     <ImageView

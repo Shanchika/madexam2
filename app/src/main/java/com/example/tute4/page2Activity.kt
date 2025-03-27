@@ -12,12 +12,6 @@ class Page2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page2)
 
-        // Handling ImageView for arr (Navigate to activity_page1.xml)
-        val imageViewArr = findViewById<ImageView>(R.id.imageView55)
-        imageViewArr.setOnClickListener {
-            val intent = Intent(this, ActivityPage1::class.java)
-            startActivity(intent)
-        }
 
         // Handling Button for b6 (Navigate to activity_page1.xml)
         val buttonB6 = findViewById<Button>(R.id.button17)
@@ -36,7 +30,7 @@ class Page2Activity : AppCompatActivity() {
         // Handling ImageView for x (Navigate to home page)
         val imageViewX = findViewById<ImageView>(R.id.imageView43)
         imageViewX.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, HomepageActivity::class.java)
             startActivity(intent)
         }
 
@@ -50,7 +44,7 @@ class Page2Activity : AppCompatActivity() {
         // Handling ImageView for image8 (Navigate to setting page)
         val imageViewSettings = findViewById<ImageView>(R.id.imageView42)
         imageViewSettings.setOnClickListener {
-            val intent = Intent(this, SettingsActivity::class.java)
+            val intent = Intent(this, SettingActivity::class.java)
             startActivity(intent)
         }
     }

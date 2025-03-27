@@ -10,7 +10,7 @@ class SignInActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_in)
+        setContentView(R.layout.activity_signin)
 
         // Finding views by their IDs
         val signInButton: Button = findViewById(R.id.button54)
@@ -18,13 +18,13 @@ class SignInActivity : AppCompatActivity() {
 
         // Navigate to Home activity on Sign In button click
         signInButton.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java) // Replace with your home activity class name
+            val intent = Intent(this, HomepageActivity::class.java)
             startActivity(intent)
         }
 
         // Navigate to Forgot Password activity on click
         forgetPasswordText.setOnClickListener {
-            val intent = Intent(this, ForgotPasswordActivity::class.java) // Replace with your forgot password activity class name
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
             startActivity(intent)
         }
     }

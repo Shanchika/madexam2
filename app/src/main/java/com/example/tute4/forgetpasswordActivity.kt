@@ -16,7 +16,7 @@ class ForgetPasswordActivity : AppCompatActivity() {
 
         // Navigate to Sign In activity on Submit button click
         submitButton.setOnClickListener {
-            val intent = Intent(this, SignInActivity::class.java) // Replace with your SignInActivity class name
+            val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
         }
     }
