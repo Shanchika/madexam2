@@ -17,14 +17,14 @@ class WelcomeActivity : AppCompatActivity() {
         val signupButton: Button = findViewById(R.id.button51)
 
         // Set an onClickListener for the SignIn button
-        signInButton.setOnClickListener {
+        signinButton.setOnClickListener {
             // Create an Intent to navigate to SignInActivity
             val intent = Intent(this, SigninActivity::class.java)
             startActivity(intent)
         }
 
         // Set an onClickListener for the SignUp button
-        signUpButton.setOnClickListener {
+        signupButton.setOnClickListener {
             // Create an Intent to navigate to SignUpActivity
             val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)
