@@ -90,4 +90,19 @@
     <string name="conform">Conform Password\n\n</string>
     <string name="s8">SignUp</string>
     <string name="s9">----OR------</string>
+    <string name="w1">Forget Password</string>
+    <string name="w2">Password</string>
+    <string name="w3">Conform Password</string>
+    <string name="b23">Submit</string>
+    <string name="w5">Welcome SHANCHIKA</string>
+    <string name="w7">UI/UX</string>
+    <string name="w8">Figma</string>
+    <string name="w90">WebDesign</string>
+    <string name="w98">Courses</string>
+    <string name="w97">My Courses</string>
+    <string name="g3">Get Start</string>
+    <string name="d4">Expand Horizons</string>
+    <string name="de4">Learn anytime with flexible courses and expert guidance.\nImprove skills and knowledge at your own pace effortlessly.</string>
+    <string name="f5">Continue</string>
+    <string name="dr6">Skip</string>
 </resources>

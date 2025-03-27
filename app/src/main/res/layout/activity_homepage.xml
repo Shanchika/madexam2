@@ -7,10 +7,10 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="240dp"
-        android:layout_height="31dp"
+        android:layout_width="279dp"
+        android:layout_height="40dp"
         android:background="#C0CAE0"
-        android:text="Welcome Shanchika"
+        android:text="@string/w5"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/searchView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,25 +30,27 @@
         app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.915" />
+        app:layout_constraintVertical_bias="0.974" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Course"
+        android:text="@string/w97"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.947" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Courses"
+        android:text="@string/w98"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
@@ -232,7 +234,7 @@
             android:layout_width="132dp"
             android:layout_height="match_parent"
             android:background="#B4BFC7"
-            android:text="UX/UI"
+            android:text="@string/w7"
             android:textSize="16sp" />
 
         <TextView
@@ -240,7 +242,7 @@
             android:layout_width="141dp"
             android:layout_height="match_parent"
             android:background="#B1BBC1"
-            android:text="figma"
+            android:text="@string/w8"
             android:textSize="16sp" />
 
         <TextView
@@ -248,7 +250,7 @@
             android:layout_width="213dp"
             android:layout_height="match_parent"
             android:background="#B9C9CC"
-            android:text="Website Design"
+            android:text="@string/w90"
             android:textSize="16sp" />
     </LinearLayout>
 

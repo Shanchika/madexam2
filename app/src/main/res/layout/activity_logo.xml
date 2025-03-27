@@ -3,29 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#566573">
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="1876dp"
-        android:layout_height="1541dp"
-        app:srcCompat="@drawable/top"
-        tools:layout_editor_absoluteX="-700dp"
-        tools:layout_editor_absoluteY="-349dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="632dp"
-        android:layout_height="613dp"
-        app:srcCompat="@drawable/bottom"
-        tools:layout_editor_absoluteX="-15dp"
-        tools:layout_editor_absoluteY="375dp" />
+        android:id="@+id/imageView97"
+        android:layout_width="610dp"
+        android:layout_height="1406dp"
+        app:srcCompat="@drawable/tran"
+        tools:layout_editor_absoluteX="-86dp"
+        tools:layout_editor_absoluteY="-307dp" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="312dp"
-        android:layout_height="378dp"
+        android:layout_width="292dp"
+        android:layout_height="319dp"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="174dp" />
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1043dp"
+        android:layout_height="474dp"
+        app:srcCompat="@drawable/bottom"
+        tools:layout_editor_absoluteX="-342dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="385dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#3A94DC"
+        android:text="@string/g3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="629dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
