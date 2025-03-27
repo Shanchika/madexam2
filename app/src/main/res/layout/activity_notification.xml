@@ -32,9 +32,9 @@
 
     <ImageView
         android:id="@+id/imageView113"
-        android:layout_width="380dp"
-        android:layout_height="675dp"
+        android:layout_width="377dp"
+        android:layout_height="691dp"
         app:srcCompat="@drawable/wedwd"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="151dp" />
+        tools:layout_editor_absoluteY="135dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
