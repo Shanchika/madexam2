@@ -11,7 +11,7 @@ class Onboard1Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onboard1)
 
-        val continueButton: Button = findViewById(R.id.button62)
+        val continueButton: Button = findViewById(R.id.button50)
         val skipButton: Button = findViewById(R.id.button2)
 
         // Navigate to Onboard3Activity when "Continue" button is clicked

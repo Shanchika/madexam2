@@ -1,72 +1,31 @@
 package com.example.tute4
 
-import android.content.Intent;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
+class SignInActivity : AppCompatActivity() {
 
-class SigninActivity :AppCompatActivity {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_sign_in)
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signin);
+        // Finding views by their IDs
+        val signInButton: Button = findViewById(R.id.button54)
+        val forgetPasswordText: TextView = findViewById(R.id.textView6)
 
-        EditText emailEditText = findViewById(R.id.editTextTextEmailAddress);
-        EditText passwordEditText = findViewById(R.id.editTextTextPassword);
-        Button signInButton = findViewById(R.id.button5);
-        Button googleSignInButton = findViewById(R.id.button3);
-        Button facebookSignInButton = findViewById(R.id.button4);
-        Button signUpButton = findViewById(R.id.button62);
-        TextView forgotPasswordText = findViewById(R.id.textView13);
+        // Navigate to Home activity on Sign In button click
+        signInButton.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java) // Replace with your home activity class name
+            startActivity(intent)
+        }
 
-        signInButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String email = emailEditText.getText().toString();
-                String password = passwordEditText.getText().toString();
-
-                if (email.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(SignInActivity.this, "Please enter email and password", Toast.LENGTH_SHORT).show();
-                } else {
-                    // Handle authentication (replace with actual login logic)
-                    Toast.makeText(SignInActivity.this, "Signed in successfully", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(SignInActivity.this, MainActivity.class));
-                    finish();
-                }
-            }
-        });
-
-        googleSignInButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(SignInActivity.this, "Google Sign-In Clicked", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        facebookSignInButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(SignInActivity.this, "Facebook Sign-In Clicked", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        signUpButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(SignInActivity.this, SignUpActivity.class));
-            }
-        });
-
-        forgotPasswordText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(SignInActivity.this, "Forgot Password Clicked", Toast.LENGTH_SHORT).show();
-            }
-        });
+        // Navigate to Forgot Password activity on click
+        forgetPasswordText.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java) // Replace with your forgot password activity class name
+            startActivity(intent)
+        }
     }
 }

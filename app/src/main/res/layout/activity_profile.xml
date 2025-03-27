@@ -35,8 +35,8 @@
         android:id="@+id/imageView95"
         android:layout_width="38dp"
         android:layout_height="26dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/arr"
-        tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="29dp" />
 
     <TextView
