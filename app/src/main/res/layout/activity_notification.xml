@@ -37,4 +37,13 @@
         app:srcCompat="@drawable/wedwd"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="125dp" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="358dp"
+        android:layout_height="699dp"
+        app:srcCompat="@drawable/wer"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="135dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
