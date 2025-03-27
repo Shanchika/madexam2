@@ -14,25 +14,10 @@
         android:layout_height="61dp"
         android:text="@string/de4"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/iconImageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926" />
-
-    <ImageView
-        android:id="@+id/iconImageView2"
-        android:layout_width="0dp"
-        android:layout_height="7dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/dot"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/iconImageView2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
