@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="161dp"
-        android:layout_height="52dp"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
         android:layout_marginEnd="112dp"
         android:text="@string/t21"
         android:textColor="#F0E8E8"
@@ -23,8 +23,8 @@
 
     <ImageView
         android:id="@+id/imageView112"
-        android:layout_width="60dp"
-        android:layout_height="30dp"
+        android:layout_width="51dp"
+        android:layout_height="18dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView113"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
