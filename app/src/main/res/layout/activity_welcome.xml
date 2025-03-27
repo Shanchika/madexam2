@@ -7,19 +7,6 @@
     android:background="@color/white">
 
 
-    <TextView
-        android:id="@+id/textView4"
-        style="@style/Widget.AppCompat.TextView.SpinnerItem"
-        android:layout_width="334dp"
-        android:layout_height="112dp"
-        android:layout_marginBottom="68dp"
-        android:text="@string/t41"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="399dp"
@@ -27,10 +14,9 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.88">
+        app:layout_constraintVertical_bias="0.909">
 
         <Button
             android:id="@+id/button"
@@ -48,26 +34,13 @@
             android:text="@string/s2" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#7C7171"
-        android:text="Skip"
-        app:layout_constraintBottom_toTopOf="@+id/imageView119"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006" />
-
     <ImageView
         android:id="@+id/imageView120"
-        android:layout_width="619dp"
-        android:layout_height="590dp"
+        android:layout_width="618dp"
+        android:layout_height="544dp"
         app:srcCompat="@drawable/u"
-        tools:layout_editor_absoluteX="-299dp"
-        tools:layout_editor_absoluteY="-11dp" />
+        tools:layout_editor_absoluteX="-298dp"
+        tools:layout_editor_absoluteY="93dp" />
 
     <ImageView
         android:id="@+id/imageView118"
@@ -79,11 +52,35 @@
 
     <ImageView
         android:id="@+id/imageView119"
-        android:layout_width="322dp"
-        android:layout_height="441dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        android:layout_width="429dp"
+        android:layout_height="806dp"
         app:srcCompat="@drawable/image"
-        tools:layout_editor_absoluteX="38dp" />
+        tools:layout_editor_absoluteX="-34dp"
+        tools:layout_editor_absoluteY="-66dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C7171"
+        android:text="@string/sdfg"
+        app:layout_constraintBottom_toTopOf="@+id/imageView119"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="344dp"
+        android:layout_height="73dp"
+        android:text="@string/t41"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="606dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="#313A6D"
+    android:backgroundTint="#E6EAF0">
 
 
     <ImageView
@@ -114,13 +115,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/t9"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:layout_editor_absoluteY="650dp" />
 
     <Button
         android:id="@+id/button26"
         android:layout_width="190dp"
         android:layout_height="46dp"
+        android:backgroundTint="#3144AF"
         android:text="@string/b14"
         tools:layout_editor_absoluteX="90dp"
         tools:layout_editor_absoluteY="792dp" />
@@ -140,14 +143,6 @@
         app:srcCompat="@drawable/s"
         tools:layout_editor_absoluteX="153dp"
         tools:layout_editor_absoluteY="87dp" />
-
-    <ImageView
-        android:id="@+id/imageView39"
-        android:layout_width="48dp"
-        android:layout_height="26dp"
-        app:srcCompat="@drawable/sh"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="41dp" />
 
     <TextView
         android:id="@+id/textView35"
@@ -204,9 +199,10 @@
 
         <Button
             android:id="@+id/button17"
-            android:layout_width="135dp"
+            android:layout_width="132dp"
             android:layout_height="43dp"
             android:layout_weight="0"
+            android:backgroundTint="#3144AF"
             android:text="@string/b6" />
 
         <Button
@@ -214,6 +210,7 @@
             android:layout_width="135dp"
             android:layout_height="43dp"
             android:layout_weight="0"
+            android:backgroundTint="#8C8888"
             android:text="@string/b7" />
 
         <Button
@@ -221,6 +218,7 @@
             android:layout_width="135dp"
             android:layout_height="43dp"
             android:layout_weight="0"
+            android:backgroundTint="#8C8888"
             android:text="@string/b8" />
     </LinearLayout>
 
@@ -241,6 +239,7 @@
                 android:layout_width="179dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#8C8888"
                 android:text="@string/b12" />
 
             <Button
@@ -248,6 +247,7 @@
                 android:layout_width="181dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#8C8888"
                 android:text="@string/b10" />
         </LinearLayout>
 
@@ -261,6 +261,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="62dp"
                 android:layout_weight="1"
+                android:backgroundTint="#8C8888"
                 android:text="@string/b11" />
 
             <Button
@@ -268,6 +269,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="69dp"
                 android:layout_weight="1"
+                android:backgroundTint="#8C8888"
                 android:text="@string/b13" />
         </LinearLayout>
     </LinearLayout>
@@ -305,6 +307,14 @@
             android:layout_height="match_parent"
             app:srcCompat="@drawable/image8" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="48dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/arr"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="48dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

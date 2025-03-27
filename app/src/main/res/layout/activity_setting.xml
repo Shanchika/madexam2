@@ -15,17 +15,6 @@
         tools:layout_editor_absoluteY="236dp" />
 
     <ImageView
-        android:id="@+id/imageView102"
-        android:layout_width="336dp"
-        android:layout_height="380dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView114"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/Gkk"
-        tools:layout_editor_absoluteX="27dp" />
-
-    <ImageView
         android:id="@+id/imageView103"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -114,10 +103,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/imageView114"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toEndOf="@+id/textView57"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ry" />
 
     <ImageView
@@ -129,13 +118,30 @@
         tools:layout_editor_absoluteY="51dp" />
 
     <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="324dp"
+        android:layout_height="508dp"
+        app:srcCompat="@drawable/img35"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image15"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageView
         android:id="@+id/imageView101"
-        android:layout_width="279dp"
-        android:layout_height="287dp"
+        android:layout_width="298dp"
+        android:layout_height="301dp"
         android:layout_marginTop="48dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView114"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/image6"
-        tools:layout_editor_absoluteX="81dp" />
+        tools:layout_editor_absoluteX="38dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

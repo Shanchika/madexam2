@@ -84,10 +84,10 @@
         tools:layout_editor_absoluteY="456dp" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="44dp"
+        android:layout_width="407dp"
+        android:layout_height="52dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="237dp">
 
         <Button
@@ -95,16 +95,15 @@
             android:layout_width="135dp"
             android:layout_height="43dp"
             android:layout_weight="0"
-            android:background="#BFB7B7"
-            android:backgroundTint="#6974BC"
+            android:backgroundTint="#64656A"
             android:text="@string/b6" />
 
         <Button
             android:id="@+id/button14"
-            android:layout_width="135dp"
-            android:layout_height="50dp"
+            android:layout_width="130dp"
+            android:layout_height="41dp"
             android:layout_weight="0"
-            android:background="#BAACAC"
+            android:backgroundTint="#28368E"
             android:text="@string/b7" />
 
         <Button
@@ -112,7 +111,7 @@
             android:layout_width="135dp"
             android:layout_height="43dp"
             android:layout_weight="0"
-            android:background="#9E9595"
+            android:backgroundTint="#64656A"
             android:text="@string/b8" />
 
         <ImageView
@@ -163,16 +162,16 @@
         android:layout_width="418dp"
         android:layout_height="235dp"
         app:srcCompat="@drawable/b"
-        tools:layout_editor_absoluteX="-21dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="2dp" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/s"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="109dp" />
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="83dp" />
 
     <Button
         android:id="@+id/button13"
@@ -281,8 +280,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         app:srcCompat="@drawable/arr"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="45dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="35dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
