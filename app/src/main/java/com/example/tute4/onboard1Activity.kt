@@ -1,4 +1,31 @@
 package com.example.tute4
 
-class onboard1Activity {
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
+class Onboard1Activity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_onboard1)
+
+        val continueButton: Button = findViewById(R.id.button)
+        val skipButton: Button = findViewById(R.id.button2)
+
+        // Navigate to Onboard3Activity when "Continue" button is clicked
+        continueButton.setOnClickListener {
+            val intent = Intent(this, Onboard3Activity::class.java)
+            startActivity(intent)
+        }
+
+        // Navigate to WelcomeActivity when "Skip" button is clicked
+        skipButton.setOnClickListener {
+            val intent = Intent(this, WelcomeActivity::class.java)
+            startActivity(intent)
+        }
+    }
 }

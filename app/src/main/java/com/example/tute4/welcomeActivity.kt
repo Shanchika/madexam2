@@ -3,38 +3,31 @@ package com.example.tute4
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_welcome.*
-class welcomeActivity : AppCompatActivity() {
+import android.widget.Button
+
+class WelcomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome) // Set the layout file
+        setContentView(R.layout.activity_welcome)
 
-        // Initialize views
-        val continueButton = button
-        val skipButton = button2
-        val blueDotImageView = iconImageView // Note: Fix duplicate IDs in XML
-        val grayDotImageView1 = iconImageView // Note: Fix duplicate IDs in XML
-        val grayDotImageView2 = iconImageView // Note: Fix duplicate IDs in XML
-        val mainImageView = imageView
-        val titleTextView = textView4
-        val subtitleTextView = textView5
-        val backgroundTextView = textView7
+        // Find the SignIn button from the layout
+        val signInButton: Button = findViewById(R.id.button6) // ID of the Sign In button
+        // Find the SignUp button from the layout
+        val signUpButton: Button = findViewById(R.id.button5) // ID of the Sign Up button
 
-        // Set up button click listeners
-        continueButton.setOnClickListener {
-            // Handle continue button click
-            // Example: Navigate to the next screen
-            val intent = Intent(this, NextActivity::class.java)
+        // Set an onClickListener for the SignIn button
+        signInButton.setOnClickListener {
+            // Create an Intent to navigate to SignInActivity
+            val intent = Intent(this, SignInActivity::class.java)
             startActivity(intent)
         }
 
-        skipButton.setOnClickListener {
-            // Handle skip button click
-            // Example: Navigate to the main screen or skip the onboarding process
-            val intent = Intent(this, MainActivity::class.java)
+        // Set an onClickListener for the SignUp button
+        signUpButton.setOnClickListener {
+            // Create an Intent to navigate to SignUpActivity
+            val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
-            finish() // Close the current activity
         }
     }
 }
