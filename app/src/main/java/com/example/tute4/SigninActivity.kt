@@ -1,7 +1,6 @@
 package com.example.tute4
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,7 +21,7 @@ class SigninActivity :AppCompatActivity {
         Button signInButton = findViewById(R.id.button5);
         Button googleSignInButton = findViewById(R.id.button3);
         Button facebookSignInButton = findViewById(R.id.button4);
-        Button signUpButton = findViewById(R.id.button6);
+        Button signUpButton = findViewById(R.id.button62);
         TextView forgotPasswordText = findViewById(R.id.textView13);
 
         signInButton.setOnClickListener(new View.OnClickListener() {

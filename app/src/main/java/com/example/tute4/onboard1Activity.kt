@@ -4,16 +4,14 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
 import android.content.Intent
-import android.os.Bundle
 import android.widget.Button
-import androidx.appcompat.app.AppCompatActivity
 
 class Onboard1Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onboard1)
 
-        val continueButton: Button = findViewById(R.id.button)
+        val continueButton: Button = findViewById(R.id.button62)
         val skipButton: Button = findViewById(R.id.button2)
 
         // Navigate to Onboard3Activity when "Continue" button is clicked
