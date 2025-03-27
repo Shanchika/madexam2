@@ -47,4 +47,22 @@
     <string name="b11">Figma</string>
     <string name="b13">Mobile app</string>
     <string name="b14">GET ENROLL</string>
+    <string name="t10">Learn anytime, anywhere</string>
+    <string name="t11">Gain new skills easily</string>
+    <string name="t12">Access quality courses</string>
+    <string name="t13">Improve knowledge effectively</string>
+    <string name="ba1" />
+    <string name="ba2">Lesson 1:What is UI/UX</string>
+    <string name="ba3">Lesson 2:App Design Process</string>
+    <string name="ba4">Lesson 2:App Design process</string>
+    <string name="ba5">Lesson 2:App Design process</string>
+    <string name="ba6">Lesson 3:App Design process</string>
+    <string name="ba7">Lesson 4:App Design process</string>
+    <string name="ba8">Lesson 5:App Design process</string>
+    <string name="ba9">Lesson 6:App Design process</string>
+    <string name="t14">Flexible Learning: Study anytime, anywhere at your own pace. Gain knowledge without time restrictions.</string>
+    <string name="t15">Expert Guidance: Learn from top instructors with real-world experience. Get quality education from professionals.</string>
+    <string name="t16">Skill Development: Enhance your abilities with practical courses. Improve career prospects with new skills</string>
+    <string name="t20">Setting</string>
+    <string name="t21">Notification</string>
 </resources>
