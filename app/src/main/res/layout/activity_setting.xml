@@ -36,10 +36,7 @@
         android:id="@+id/imageView105"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView107"
-        app:layout_constraintTop_toBottomOf="@+id/imageView114"
-        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/aaa"
         tools:layout_editor_absoluteX="314dp" />
 
@@ -92,30 +89,18 @@
         android:layout_height="30dp"
         android:text="@string/t20"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView114"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         tools:layout_editor_absoluteX="66dp" />
 
     <ImageView
         android:id="@+id/imageView111"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/imageView114"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toEndOf="@+id/textView57"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ry" />
-
-    <ImageView
-        android:id="@+id/imageView114"
-        android:layout_width="294dp"
-        android:layout_height="313dp"
-        app:srcCompat="@drawable/SDSD"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="51dp" />
 
     <ImageView
         android:id="@+id/imageView33"
@@ -138,9 +123,7 @@
         android:layout_width="298dp"
         android:layout_height="301dp"
         android:layout_marginTop="48dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView114"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/image6"
         tools:layout_editor_absoluteX="38dp" />
 

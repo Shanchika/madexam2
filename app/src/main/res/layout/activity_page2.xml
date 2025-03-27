@@ -114,6 +114,13 @@
             android:backgroundTint="#64656A"
             android:text="@string/b8" />
 
+        <ImageView
+            android:id="@+id/imageView122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/image11" />
+
     </LinearLayout>
 
     <ImageView
@@ -123,32 +130,6 @@
         app:srcCompat="@drawable/image17"
         tools:layout_editor_absoluteX="-9dp"
         tools:layout_editor_absoluteY="852dp" />
-
-    <LinearLayout
-        android:layout_width="413dp"
-        android:layout_height="55dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="853dp">
-
-        <ImageView
-            android:id="@+id/imageView43"
-            android:layout_width="165dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/x" />
-
-        <ImageView
-            android:id="@+id/imageView41"
-            android:layout_width="139dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/image11" />
-
-        <ImageView
-            android:id="@+id/imageView42"
-            android:layout_width="101dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@drawable/image8" />
-    </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView34"
@@ -268,6 +249,29 @@
         tools:layout_editor_absoluteX="344dp"
         tools:layout_editor_absoluteY="749dp" />
 
+    <ImageView
+        android:id="@+id/imageView116"
+        android:layout_width="132dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/image8"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="854dp" />
+
+    <ImageView
+        android:id="@+id/imageView121"
+        android:layout_width="134dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/sdf"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="852dp" />
+
+    <ImageView
+        android:id="@+id/imageView123"
+        android:layout_width="133dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/image11"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="854dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

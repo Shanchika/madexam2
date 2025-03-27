@@ -14,7 +14,7 @@ class SignInActivity : AppCompatActivity() {
 
         // Finding views by their IDs
         val signInButton: Button = findViewById(R.id.button54)
-        val forgetPasswordText: TextView = findViewById(R.id.textView6)
+        val forgetPasswordText: TextView = findViewById(R.id.textView13)
 
         // Navigate to Home activity on Sign In button click
         signInButton.setOnClickListener {
