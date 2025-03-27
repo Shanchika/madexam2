@@ -25,9 +25,9 @@
             <activity android:name=".HomepageActivity" />
             <activity android:name=".ProfileActivity" />
             <activity android:name=".SettingActivity" />
-            <activity android:name=".NotificationsActivity" />
+            <activity android:name=".NotificationActivity" />
             <activity android:name=".Payment1Activity" />
-            <activity android:name=".ForgotPasswordActivity" />
+            <activity android:name=".ForgetPasswordActivity" />
             <activity android:name=".Onboard1Activity" />
             <activity android:name=".Onboard3Activity" />
             <activity android:name=".Page1Activity" />
