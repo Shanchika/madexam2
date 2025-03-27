@@ -19,58 +19,19 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.059" />
-
-    <ImageView
-        android:id="@+id/iconImageView"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/bluedot"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.089" />
-
-    <ImageView
-        android:id="@+id/iconImageView"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/dot"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.365"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.089" />
-
-    <ImageView
-        android:id="@+id/iconImageView"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/dot"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.639"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.089" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="317dp"
         android:layout_height="76dp"
+        android:layout_marginBottom="52dp"
         android:backgroundTint="#2939B4"
         android:text="continue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iconImageView"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
@@ -84,13 +45,13 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintVertical_bias="0.158" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="475dp"
         android:layout_height="292dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="184dp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:srcCompat="@drawable/rt"
         tools:layout_editor_absoluteX="-32dp" />
@@ -117,7 +78,31 @@
         app:layout_constraintHorizontal_bias="0.303"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.118"
+        app:layout_constraintVertical_bias="0.154"
         app:srcCompat="@drawable/image2" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="27dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/bluedot"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="36dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/dot"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="29dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/dot"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="665dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

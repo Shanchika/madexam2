@@ -14,7 +14,7 @@
         android:layout_height="61dp"
         android:text=" gsghrfhb gsrhsh sgrdhdh htdhftgh hfhdh hrdhdh stgrgdrg grfhh sgdgd"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/iconImageView"
+        app:layout_constraintBottom_toTopOf="@+id/iconImageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,43 +22,17 @@
         app:layout_constraintVertical_bias="0.926" />
 
     <ImageView
-        android:id="@+id/iconImageView"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/bluedot"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/iconImageView"
-        app:layout_constraintHorizontal_bias="0.875"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
-
-    <ImageView
-        android:id="@+id/iconImageView"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:id="@+id/iconImageView2"
+        android:layout_width="0dp"
+        android:layout_height="7dp"
         android:scaleType="centerCrop"
         android:src="@drawable/dot"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toStartOf="@+id/iconImageView"
-        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintEnd_toStartOf="@+id/iconImageView2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
-
-    <ImageView
-        android:id="@+id/iconImageView"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/dot"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.952" />
+        app:layout_constraintVertical_bias="0.958" />
 
     <Button
         android:id="@+id/button"
@@ -101,12 +75,12 @@
         app:layout_constraintVertical_bias="0.911" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView8"
         android:layout_width="1058dp"
         android:layout_height="315dp"
         app:srcCompat="@drawable/rt"
-        tools:layout_editor_absoluteX="-311dp"
-        tools:layout_editor_absoluteY="-50dp" />
+        tools:layout_editor_absoluteX="-315dp"
+        tools:layout_editor_absoluteY="-6dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -118,5 +92,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.764"
         app:srcCompat="@drawable/image5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/bluedot"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/dot"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="31dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/dot"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="670dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
