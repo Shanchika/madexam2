@@ -42,8 +42,8 @@ class Page2Activity : AppCompatActivity() {
         }
 
         // Handling ImageView for image8 (Navigate to setting page)
-        val imageViewSettings = findViewById<ImageView>(R.id.imageView42)
-        imageViewSettings.setOnClickListener {
+        val imageViewSetting = findViewById<ImageView>(R.id.imageView42)
+        imageViewSetting.setOnClickListener {
             val intent = Intent(this, SettingActivity::class.java)
             startActivity(intent)
         }

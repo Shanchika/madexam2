@@ -22,7 +22,7 @@ class Page3Activity : AppCompatActivity() {
         // Button to navigate to Page2
         val button14: Button = findViewById(R.id.button14)
         button14.setOnClickListener {
-            val intent = Intent(this, Page2Activity::class.java)  /
+            val intent = Intent(this, Page2Activity::class.java)
                     startActivity(intent)
         }
 

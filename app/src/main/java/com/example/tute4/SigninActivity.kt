@@ -6,18 +6,18 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class SignInActivity : AppCompatActivity() {
+class SigninActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
 
         // Finding views by their IDs
-        val signInButton: Button = findViewById(R.id.button54)
+        val signinButton: Button = findViewById(R.id.button54)
         val forgetPasswordText: TextView = findViewById(R.id.textView13)
 
         // Navigate to Home activity on Sign In button click
-        signInButton.setOnClickListener {
+        signinButton.setOnClickListener {
             val intent = Intent(this, HomepageActivity::class.java)
             startActivity(intent)
         }
